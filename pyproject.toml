@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yuyahnd.github.io"
+version = "0.0.1"
+description = "Github io pages."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT License"}
+keywords = ["yuyahnd", "github", "github.io", "pages"]
+authors = [
+    { name = "Yuya Honda", email = "yuyahnd.info@gmail.com" }
+]
+maintainers = [
+    { name = "Yuya Honda", email = "yuyahnd.info@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "mkdocs==1.4.2",
+    "mkdocs-material==9.0.13",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+"Homepage" = "https://yuyahnd.github.io/"
+"Bug Tracker" = "https://github.com/yuyahnd/yuyahnd.github.io/issues"
+"Repository" = "https://github.com/yuyahnd/yuyahnd.github.io.git"
