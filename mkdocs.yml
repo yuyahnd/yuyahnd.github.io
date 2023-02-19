@@ -1,0 +1,26 @@
+site_name: Yuya Honda
+site_url: https://yuyahnd.github.io/
+repo_url: https://github.com/yuyahnd/yuyahnd.github.io
+
+# Theme
+theme:
+  name: material
+  language: ja
+  palette:
+    primary: black
+  features:
+    - navigation.top
+    - toc.follow
+
+# Plugin
+plugins:
+  search:
+    lang: ja
+
+
+# Extra
+extra:
+  generator: false
+
+# Copyright
+copyright: 'Copyright © 2023 Yuya Honda.'
