@@ -17,6 +17,8 @@ plugins:
   search:
     lang: ja
 
+extra_css:
+  - stylesheets/extra.css
 
 # Extra
 extra:
